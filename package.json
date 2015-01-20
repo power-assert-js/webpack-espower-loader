@@ -25,9 +25,11 @@
   "homepage": "https://github.com/zoncoen/webpack-espower-loader",
   "scripts": {
     "fmt": "jsfmt -w ./*.js ./**/*.js",
-    "test": "mocha test/**/*-test.js"
+    "test": "mocha --require intelli-espower-loader test/**/*-test.js"
   },
   "devDependencies": {
+    "espower-loader": "^0.10.0",
+    "intelli-espower-loader": "^0.6.0",
     "jsfmt": "^0.4.0",
     "mocha": "^2.1.0",
     "power-assert": "^0.10.1",
