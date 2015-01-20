@@ -24,5 +24,5 @@ module.exports = function(jsCode, inMap) {
   var poweredCodeWithMap = espower(jsCode, filepath, options);
   var outMap = convert.fromSource(poweredCodeWithMap);
   this.callback(null, convert.removeComments(poweredCodeWithMap), outMap.toObject());
-}
+};
 
