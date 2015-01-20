@@ -14,7 +14,7 @@ describe('webpack-espowered-loader', function() {
     context.resourcePath = '/path/to/original.js';
     context.options = {};
     context.callback = function(err, powered, map) {
-      var expected = "var zero = 0;\nassert(assert._expr(assert._capt(zero, 'arguments/0'), {\n    content: 'assert(zero, 1)',\n    filepath: '/path/to/original.js',\n    line: 2\n}), 1);";
+      var expected = "var zero = 0;\nassert(assert._expr(assert._capt(zero, 'arguments/0'), {\n    content: 'assert(zero, 1)',\n    filepath: '/path/to/original.js',\n    line: 2\n}), 1);\n\n";
       assert.equal(powered, expected, 'got powered source');
     };
 
