@@ -20,7 +20,9 @@ See [power-assert](https://github.com/twada/power-assert) project for more docum
 
 Install `power-assert` and `webpack-espower-loader` via npm:
 
-`npm install --save-dev webpack-espower-loader`
+```console
+$ npm install --save-dev webpack-espower-loader
+```
 
 ## Usage
 
@@ -41,6 +43,26 @@ Configure `webpack.config.js` to apply `webpack-espower-loader` through webpack 
     module: {
         loaders: [
             { test: /_test\.js$/, loader: "webpack-espower-loader" }
+        ]
+    }
+}
+```
+
+You can pass espower options by including to webpack configuration object (e.g. webpack.config.js).
+If not passed, default options (Same as [espower.defaultOptions()](https://github.com/twada/espower#var-options--espowerdefaultoptions)) will be used, but `destructive` option is set to `true` by `espower-source` module.
+
+```js
+{
+    espower: {
+        patterns: [
+            'assert(value, [message])',
+            'assert.ok(value, [message])',
+            'assert.equal(actual, expected, [message])',
+            'assert.notEqual(actual, expected, [message])',
+            'assert.strictEqual(actual, expected, [message])',
+            'assert.notStrictEqual(actual, expected, [message])',
+            'assert.deepEqual(actual, expected, [message])',
+            'assert.notDeepEqual(actual, expected, [message])'
         ]
     }
 }
