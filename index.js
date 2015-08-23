@@ -1,11 +1,11 @@
 /**
  * webpack-espower-loader - Power Assert instrumentor for webpack.
  *
- * https://github.com/zoncoen/webpack-espower-loader
+ * https://github.com/power-assert-js/webpack-espower-loader
  *
  * Copyright (c) 2015 Kenta Mori
  * Licensed under the MIT license.
- *   https://github.com/zoncoen/webpack-espower-loader/blob/master/LICENSE
+ *   https://github.com/power-assert-js/webpack-espower-loader/blob/master/LICENSE
  */
 'use strict';
 

@@ -8,7 +8,7 @@
     "url": "http://github.com/zoncoen"
   },
   "bugs": {
-    "url": "https://github.com/zoncoen/webpack-espower-loader/issues"
+    "url": "https://github.com/power-assert-js/webpack-espower-loader/issues"
   },
   "keywords": [
     "assert",
@@ -20,9 +20,9 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zoncoen/webpack-espower-loader"
+    "url": "https://github.com/power-assert-js/webpack-espower-loader"
   },
-  "homepage": "https://github.com/zoncoen/webpack-espower-loader",
+  "homepage": "https://github.com/power-assert-js/webpack-espower-loader",
   "scripts": {
     "fmt": "jsfmt -w ./*.js ./**/*-test.js ./gulpfile.js",
     "lint": "gulp jshint",

@@ -70,20 +70,20 @@ If not passed, default options (Same as [espower.defaultOptions()](https://githu
 
 ## Changelog
 
-See [CHANGELOG.md](https://github.com/zoncoen/webpack-espower-loader/blob/master/CHANGELOG.md).
+See [CHANGELOG.md](https://github.com/power-assert-js/webpack-espower-loader/blob/master/CHANGELOG.md).
 
 ## License
 
-Licensed under the MIT license. See [LICENSE](https://github.com/zoncoen/webpack-espower-loader/blob/master/LICENSE).
+Licensed under the MIT license. See [LICENSE](https://github.com/power-assert-js/webpack-espower-loader/blob/master/LICENSE).
 
-[travis-url]: https://travis-ci.org/zoncoen/webpack-espower-loader
-[travis-image]: https://secure.travis-ci.org/zoncoen/webpack-espower-loader.svg?branch=master
+[travis-url]: https://travis-ci.org/power-assert-js/webpack-espower-loader
+[travis-image]: https://secure.travis-ci.org/power-assert-js/webpack-espower-loader.svg?branch=master
 
 [npm-url]: https://npmjs.org/package/webpack-espower-loader
 [npm-image]: https://badge.fury.io/js/webpack-espower-loader.svg
 
-[depstat-url]: https://gemnasium.com/zoncoen/webpack-espower-loader
-[depstat-image]: https://gemnasium.com/zoncoen/webpack-espower-loader.svg
+[depstat-url]: https://gemnasium.com/power-assert-js/webpack-espower-loader
+[depstat-image]: https://gemnasium.com/power-assert-js/webpack-espower-loader.svg
 
-[license-url]: https://github.com/zoncoen/webpack-espower-loader/blob/master/LICENSE
+[license-url]: https://github.com/power-assert-js/webpack-espower-loader/blob/master/LICENSE
 [license-image]: http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat
