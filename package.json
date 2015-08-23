@@ -29,20 +29,20 @@
     "test": "gulp test"
   },
   "devDependencies": {
-    "espower-loader": "^0.10.0",
+    "espower-loader": "^1.0.0",
     "gulp": "^3.8.10",
     "gulp-jshint": "^1.9.0",
     "gulp-mocha": "^2.0.0",
-    "intelli-espower-loader": "^0.6.0",
-    "jsfmt": "^0.4.0",
-    "jshint-stylish": "^1.0.0",
+    "intelli-espower-loader": "^1.0.0",
+    "jsfmt": "^0.5.0",
+    "jshint-stylish": "^2.0.1",
     "mocha": "^2.1.0",
-    "power-assert": "^0.10.1",
-    "source-map": "^0.1.43"
+    "power-assert": "^0.11.0",
+    "source-map": "^0.4.4"
   },
   "dependencies": {
-    "convert-source-map": "^0.4.1",
-    "espower-source": "^0.10.0",
+    "convert-source-map": "^1.1.1",
+    "espower-source": "^1.0.0",
     "xtend": "^4.0.0"
   }
 }
