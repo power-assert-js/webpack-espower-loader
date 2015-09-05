@@ -21,6 +21,9 @@ module.exports = function(jsCode, inMap) {
       sourceMap: inMap,
     });
   }
+  if (this.cacheable) {
+    this.cacheable();
+  }
   var poweredCodeWithMap = espower(jsCode, filepath, options);
   var outMap = convert.fromSource(poweredCodeWithMap);
   this.callback(null, convert.removeComments(poweredCodeWithMap), outMap.toObject());
