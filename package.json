@@ -1,7 +1,7 @@
 {
   "name": "webpack-espower-loader",
   "description": "Power Assert module for webpack ",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Kenta Mori",
     "email": "zoncoen@gmail.com",
