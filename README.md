@@ -16,6 +16,13 @@ Please note that `webpack-espower-loader` is a beta version project. Pull-reques
 
 See [power-assert](https://github.com/twada/power-assert) project for more documentation.
 
+## FAQ
+
+#### webpack-espower-loader does not work with babel-loader!
+
+webpack-espower-loader does not work with [babel-loader](https://github.com/babel/babel-loader) due to the change of transpiled code since babel 5.0. Please use [babel-plugin-espower](https://github.com/power-assert-js/babel-plugin-espower) with babel-loader.
+
+
 ## Installation
 
 Install `power-assert` and `webpack-espower-loader` via npm:
