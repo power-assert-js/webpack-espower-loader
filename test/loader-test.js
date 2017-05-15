@@ -4,18 +4,19 @@ var assert = require('power-assert');
 var sourceMap = require("source-map");
 var Consumer = sourceMap.SourceMapConsumer;
 var espower = require('../index');
+var fs = require('fs');
 
 describe('webpack-espowered-loader', function() {
   it('should return powered source', function() {
-    var source = 'var zero = 0;\nassert(zero, 1);'
+    var source = fs.readFileSync('test/fixtures/instrumentation/fixture.js', 'utf8');
 
     // set context for webpack loader
     var context = {};
     context.resourcePath = '/path/to/original.js';
     context.options = {};
     context.callback = function(err, powered, map) {
-      var expected = "var zero = 0;\nassert(assert._expr(assert._capt(zero, 'arguments/0'), {\n    content: 'assert(zero, 1)',\n    filepath: 'original.js',\n    line: 2\n}), 1);\n\n";
-      assert.equal(powered, expected, 'got powered source');
+      var expected = fs.readFileSync('test/fixtures/instrumentation/expected.js', 'utf8');
+      assert.equal(powered, expected + '\n', 'got powered source');
     };
 
     espower.call(context, source, null);
@@ -32,7 +33,7 @@ describe('webpack-espowered-loader', function() {
       var smc = new Consumer(map);
       var originalPosition = smc.originalPositionFor({
         source: '/path/to/root/original.coffee',
-        line: 6,
+        line: 31,
         column: 4
       });
       assert.equal(originalPosition.source, '/path/to/original.js', 'got original source');

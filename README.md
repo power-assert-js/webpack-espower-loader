@@ -9,12 +9,12 @@ Power Assert instrumentor module for webpack.
 
 ## Description
 
-`webpack-espower-loader` is a webpack loader module for [power-assert](https://github.com/twada/power-assert).
-`webpack-espower-loader` applies [espower](http://github.com/twada/espower) to target sources through webpack loader chain.
+`webpack-espower-loader` is a webpack loader module for [power-assert](https://github.com/power-assert-js/power-assert).
+`webpack-espower-loader` applies [espower](http://github.com/power-assert-js/espower) to target sources through webpack loader chain.
 
 Please note that `webpack-espower-loader` is a beta version project. Pull-requests, issue reports and patches are always welcomed.
 
-See [power-assert](https://github.com/twada/power-assert) project for more documentation.
+See [power-assert](https://github.com/power-assert-js/power-assert) project for more documentation.
 
 ## FAQ
 
@@ -33,16 +33,6 @@ $ npm install --save-dev webpack-espower-loader
 
 ## Usage
 
-Require `power-assert` in your test.
-
-```diff
---- a/test/your_test.js
-+++ b/test/your_test.js
-@@ -1,4 +1,4 @@
--var assert = require('assert');
-+var assert = require('power-assert');
-```
-
 Configure `webpack.config.js` to apply `webpack-espower-loader` through webpack loader transformation chain.
 
 ```js
@@ -56,7 +46,7 @@ Configure `webpack.config.js` to apply `webpack-espower-loader` through webpack 
 ```
 
 You can pass espower options by including to webpack configuration object (e.g. webpack.config.js).
-If not passed, default options (Same as [espower.defaultOptions()](https://github.com/twada/espower#var-options--espowerdefaultoptions)) will be used, but `destructive` option is set to `true` by `espower-source` module.
+If not passed, default options (Same as [espower.defaultOptions()](https://github.com/power-assert-js/espower#var-options--espowerdefaultoptions)) will be used.
 
 ```js
 {
