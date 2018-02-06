@@ -43,6 +43,7 @@
   "dependencies": {
     "convert-source-map": "^1.1.1",
     "espower-source": "^2.0.0",
+    "loader-utils": "^1.1.0",
     "xtend": "^4.0.0"
   }
 }
