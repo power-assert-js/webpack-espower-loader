@@ -3,7 +3,7 @@
  *
  * https://github.com/power-assert-js/webpack-espower-loader
  *
- * Copyright (c) 2015 Kenta Mori
+ * Copyright (c) 2015- Kenta Mori
  * Licensed under the MIT license.
  *   https://github.com/power-assert-js/webpack-espower-loader/blob/master/LICENSE
  */
