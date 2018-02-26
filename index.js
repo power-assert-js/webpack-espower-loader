@@ -19,7 +19,7 @@ module.exports = function(jsCode, inMap) {
   var options = loaderUtils.getOptions(this) || {};
   if (inMap) {
     options = extend(options, {
-      sourceMap: inMap,
+      sourceMap: inMap
     });
   }
   if (this.cacheable) {
