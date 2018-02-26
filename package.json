@@ -28,6 +28,13 @@
   ],
   "license": "MIT",
   "main": "index.js",
+  "files": [
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md",
+    "index.js",
+    "package.json"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/power-assert-js/webpack-espower-loader"
