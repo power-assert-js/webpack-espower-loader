@@ -47,6 +47,7 @@ If not passed, default options (Same as [espower.defaultOptions()](https://githu
 ```js
 {
     module: {
+        exprContextCritical: false,
         rules: [{
             test: /_test\.js$/,
             use: [{
@@ -63,7 +64,7 @@ If not passed, default options (Same as [espower.defaultOptions()](https://githu
                         'assert.notDeepEqual(actual, expected, [message])'
                     ]
                 }
-            }
+            }]
         }]
     }
 }
