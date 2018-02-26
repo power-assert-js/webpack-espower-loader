@@ -12,7 +12,7 @@ Power Assert instrumentor module for webpack.
 `webpack-espower-loader` is a webpack loader module for [power-assert](https://github.com/power-assert-js/power-assert).
 `webpack-espower-loader` applies [espower](http://github.com/power-assert-js/espower) to target sources through webpack loader chain.
 
-Please note that `webpack-espower-loader` is a beta version project. Pull-requests, issue reports and patches are always welcomed.
+Pull-requests, issue reports and patches are always welcomed.
 
 See [power-assert](https://github.com/power-assert-js/power-assert) project for more documentation.
 
