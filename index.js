@@ -12,10 +12,11 @@
 var convert = require('convert-source-map');
 var espower = require('espower-source');
 var extend = require('xtend');
+var loaderUtils = require('loader-utils');
 
 module.exports = function(jsCode, inMap) {
   var filepath = this.resourcePath;
-  var options = this.options.espower;
+  var options = loaderUtils.getOptions(this) || {};
   if (inMap) {
     options = extend(options, {
       sourceMap: inMap,
