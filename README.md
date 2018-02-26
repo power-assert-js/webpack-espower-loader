@@ -31,6 +31,14 @@ Install `power-assert` and `webpack-espower-loader` via npm:
 $ npm install --save-dev webpack-espower-loader
 ```
 
+## Caution
+
+For webpack3 or lower, you need to use [the 1.x release of webpack-espower-loader](https://github.com/power-assert-js/webpack-espower-loader/tree/1.x).
+
+```
+$ npm install --save-dev webpack-espower-loader@1.0.2
+```
+
 ## Usage
 
 Configure `webpack.config.js` to apply `webpack-espower-loader` through webpack loader transformation chain. Options are passed through to espower.
