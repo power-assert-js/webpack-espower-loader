@@ -7,6 +7,16 @@
     "email": "zoncoen@gmail.com",
     "url": "http://github.com/zoncoen"
   },
+  "contributors": [
+    {
+      "name": "Takuto Wada",
+      "url": "https://github.com/twada"
+    },
+    {
+      "name": "Chris Farmiloe",
+      "url": "https://github.com/chrisfarms"
+    }
+  ],
   "bugs": {
     "url": "https://github.com/power-assert-js/webpack-espower-loader/issues"
   },

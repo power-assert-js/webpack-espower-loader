@@ -65,6 +65,15 @@ If not passed, default options (Same as [espower.defaultOptions()](https://githu
 
 See [CHANGELOG.md](https://github.com/power-assert-js/webpack-espower-loader/blob/master/CHANGELOG.md).
 
+## Author
+
+* [zoncoen (Kenta Mori)](https://github.com/zoncoen)
+
+## Contributors
+
+* [twada (Takuto Wada)](https://github.com/twada)
+* [chrisfarms (Chris Farmiloe)](https://github.com/chrisfarms)
+
 ## License
 
 Licensed under the MIT license. See [LICENSE](https://github.com/power-assert-js/webpack-espower-loader/blob/master/LICENSE).
